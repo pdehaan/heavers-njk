@@ -1,16 +1,29 @@
 {
   "name": "heavers-njk",
-  "version": "1.0.0",
   "description": "",
+  "version": "1.0.0",
+  "author": "Peter deHaan <peter@deseloper.com>",
+  "bugs": {
+    "url": "https://github.com/pdehaan/heavers-njk/issues"
+  },
+  "dependencies": {
+    "a-sync-waterfall": "^1.0.1",
+    "asap": "^2.0.6",
+    "commander": "^5.1.0"
+  },
+  "devDependencies": {
+    "nunjucks": "^3.2.4"
+  },
+  "homepage": "https://github.com/pdehaan/heavers-njk#readme",
+  "keywords": [],
+  "license": "MPL-2.0",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdehaan/heavers-njk.git"
+  },
   "scripts": {
     "build": "node compile",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "Peter deHaan <peter@deseloper.com>",
-  "license": "MPL-2.0",
-  "devDependencies": {
-    "nunjucks": "^3.2.4"
   }
 }
