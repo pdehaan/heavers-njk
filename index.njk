@@ -1,0 +1,10 @@
+{% from "partials/image-cards/image-cards.html" import imageCards %}
+
+{% set slides = [
+  { "alt": "Tokenization Visualization","title": "Tokenization", "description": "The LLM starts by breaking down the input text, or 'prompt', into smaller pieces known as tokens.", "image": "/img/ai/carousels/how-llm-works/tokenization.png"},
+  { "alt": "Peter smells", "title":"Peter", "description": "test 123", "image": "/img/ai/carousels/www/a.gifv"}
+] %}
+
+<section>
+  {{- imageCards(slides) -}}
+</section>
